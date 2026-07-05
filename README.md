@@ -16,7 +16,6 @@ ModSettings
 ## Special Thanks
 The Long Dark Modding Server (Discord)
 
-
-## 
+ 
 If you enjoy using this mod, feel free to buy me a cup of coffee.  Thank you!
 https://ko-fi.com/moosemeat817
