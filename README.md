@@ -7,7 +7,8 @@ This mod adds a security hut, fishing hut, storage shed and hunter's blind to th
 
 <img src="https://github.com/moosemeat817/ModListJson/blob/main/MindfulNeighborhood.png" width="80%">
 
-🔥🔥🔥🔥  If you have the More Cooking Slots mod installed, there will be four cooking slots on the fireplace!  🔥🔥🔥🔥
+🔥🔥🔥🔥 If you have the **[More Cooking Slots](https://github.com/DemonBunnyBon/TLD-More-Cooking-Slots)** mod installed, there will be four cooking slots on the fireplace! 🔥🔥🔥🔥
+
 
 ## Requirements
 ModSettings
