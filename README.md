@@ -12,6 +12,8 @@ This mod adds a security hut, fishing hut, storage shed and hunter's blind to th
 🔥🔥 If you have the **[More Cooking Slots](https://github.com/DemonBunnyBon/TLD-More-Cooking-Slots)** mod installed, there will be four cooking slots on the fireplace! 🔥🔥
 
 
+NOTE: Justy's Hovel cabin is moved, but a burned trailer is left in it's place.
+
 ## Requirements
 ModSettings
 
