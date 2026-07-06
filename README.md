@@ -22,7 +22,8 @@ NOTE: Justy's Hovel cabin is moved - a burned trailer is left in it's place for 
 ModSettings
 
 ## Special Thanks
-The Long Dark Modding Server (Discord)
+- Marcy - For the most excellent More Cooking Slots mod.
+- The Long Dark Modding Server (Discord)
 
  
 If you enjoy using this mod, feel free to buy me a cup of coffee.  Thank you!
