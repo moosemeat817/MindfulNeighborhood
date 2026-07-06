@@ -13,7 +13,7 @@ NOTE: Justy's Hovel cabin is moved - a burned trailer is left in it's place for 
 
 <img src="https://github.com/moosemeat817/ModListJson/blob/main/MindfulNeighborhood.png" width="80%">
 
-🔥🔥 If you have the **[More Cooking Slots](https://github.com/DemonBunnyBon/TLD-More-Cooking-Slots)** mod installed, there will be **four** cooking slots on the fireplace! 🔥🔥
+🔥🔥 If you have the **[More Cooking Slots](https://github.com/DemonBunnyBon/TLD-More-Cooking-Slots)** mod installed, there will be **FOUR** cooking slots on the fireplace! 🔥🔥
 
 
 
