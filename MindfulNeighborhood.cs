@@ -19,13 +19,15 @@ namespace MindfulNeighborhood
         {
 
 
-            if (sceneName == "AirfieldRegion")
+            if (sceneName == "AirfieldRegion" && Settings.options.mindfulNeighborhood)
             {
                 Log.Msg($"****************************** OnSceneWasLoaded");
                 MelonCoroutines.Start(new MindfulNeighborhoodManager().PlaceAssetsAsync());
 
-
-                GameObject.Find("Art/Structures/STR_WoodCabinE_Prefab").transform.SetPositionAndRotation(new Vector3(-934.8487f, 284.7958f, 1267.208f), Quaternion.Euler(new Vector3(-0, 232.537f, 0)));
+                if (Settings.options.moveJustys)
+                {
+                    GameObject.Find("Art/Structures/STR_WoodCabinE_Prefab").transform.SetPositionAndRotation(new Vector3(-934.8487f, 284.7958f, 1267.208f), Quaternion.Euler(new Vector3(-0, 232.537f, 0)));
+                }
 
                 Transform structures = GameObject.Find("Art/Structures").transform;
                 structures.GetChild(5).SetPositionAndRotation(new Vector3(-531.3672f, 296.215f, 1350.146f), Quaternion.Euler(new Vector3(-0, 321.7562f, 0)));
@@ -64,8 +66,10 @@ namespace MindfulNeighborhood
 
             if (sceneName == "AirfieldRegion" || sceneName == "AirfieldRegion_SANDBOX")
             {
-
-                Clones.ChangeObjects();
+                if (Settings.options.mindfulNeighborhood)
+                {
+                    Clones.ChangeObjects();
+                }
             }
 
 

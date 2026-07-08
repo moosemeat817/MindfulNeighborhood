@@ -177,7 +177,7 @@ namespace MindfulNeighborhood
 
         private static void HandleAirfieldRegion(GameObject original, string objectPath)
         {
-            if (!Settings.options.forsakenFireplaces)
+            if (!Settings.options.mindfulNeighborhood)
                 return;
 
             string objectName = GetObjectNameFromPath(objectPath);
@@ -287,59 +287,66 @@ namespace MindfulNeighborhood
                     Log.Msg($"[FFP-DIAG][Clones] HandleAirfieldRegion: original '{original.name}' id={original.GetInstanceID()}");
 
                     // Straightforward clone - no cooking slots involved, so no postSetup needed.
-                    CreateCloneIfNotExists(original, "OBJ_FenceWoodB1_Prefab (18)(Clone)",
+
+
+
+                    if (Settings.options.moveJustys)
+                    {
+
+                        CreateCloneIfNotExists(original, "OBJ_FenceWoodB1_Prefab (18)(Clone)",
                         new Vector3(-930.9295f, 284.6283f, 1276.9f),
                         Quaternion.Euler(-0, 154.33f, 0),
                         new Vector3(1f, 1f, 1.2f));
 
 
-                    CreateCloneIfNotExists(original, "OBJ_FenceWoodB1_Prefab (18)2(Clone)",
-                        new Vector3(-929.4294f, 284.6283f, 1273.4f),
-                        Quaternion.Euler(12f, 154.33f, 6),
-                        new Vector3(1f, 1f, 1.2f));
+                        CreateCloneIfNotExists(original, "OBJ_FenceWoodB1_Prefab (18)2(Clone)",
+                            new Vector3(-929.4294f, 284.6283f, 1273.4f),
+                            Quaternion.Euler(12f, 154.33f, 6),
+                            new Vector3(1f, 1f, 1.2f));
 
 
-                    CreateCloneIfNotExists(original, "OBJ_FenceWoodB1_Prefab (18)3(Clone)",
-                        new Vector3(-930.9295f, 284.6283f, 1276.9f),
-                        Quaternion.Euler(5f, 241.33f, 0),
-                        new Vector3(1f, 1f, 1.2f));
+                        CreateCloneIfNotExists(original, "OBJ_FenceWoodB1_Prefab (18)3(Clone)",
+                            new Vector3(-930.9295f, 284.6283f, 1276.9f),
+                            Quaternion.Euler(5f, 241.33f, 0),
+                            new Vector3(1f, 1f, 1.2f));
 
 
-                    CreateCloneIfNotExists(original, "OBJ_FenceWoodB1_Prefab (18)4(Clone)",
-                        new Vector3(-934.3294f, 284.2283f, 1275.4f),
-                        Quaternion.Euler(10f, 241.3299f, 10),
-                        new Vector3(1f, 1f, 1.2f));
+                        CreateCloneIfNotExists(original, "OBJ_FenceWoodB1_Prefab (18)4(Clone)",
+                            new Vector3(-934.3294f, 284.2283f, 1275.4f),
+                            Quaternion.Euler(10f, 241.3299f, 10),
+                            new Vector3(1f, 1f, 1.2f));
 
 
+                        CreateCloneIfNotExists(original, "OBJ_FenceWoodB1_Prefab (18)5(Clone)",
+                            new Vector3(-937.7293f, 283.8283f, 1273.4f),
+                            Quaternion.Euler(17, 241.3299f, 19),
+                            new Vector3(1f, 1f, 1.2f));
 
 
+                        CreateCloneIfNotExists(original, "OBJ_FenceWoodB1_Prefab (18)6(Clone)",
+                            new Vector3(-944.711f, 284.2283f, 1267.4f),
+                            Quaternion.Euler(21, 138.9661f, 347),
+                            new Vector3(1f, 1f, 1.2f));
 
 
-                    CreateCloneIfNotExists(original, "OBJ_FenceWoodB1_Prefab (18)5(Clone)",
-                        new Vector3(-937.7293f, 283.8283f, 1273.4f),
-                        Quaternion.Euler(17, 241.3299f, 19),
-                        new Vector3(1f, 1f, 1.2f));
+                        CreateCloneIfNotExists(original, "OBJ_FenceWoodB1_Prefab (18)7(Clone)",
+                            new Vector3(-939.0109f, 283.4283f, 1260.2f),
+                            Quaternion.Euler(13.0004f, 315.257f, 16.9999f),
+                            new Vector3(1f, 1f, 1.2f));
 
 
-                    CreateCloneIfNotExists(original, "OBJ_FenceWoodB1_Prefab (18)6(Clone)",
-                        new Vector3(-944.711f, 284.2283f, 1267.4f),
-                        Quaternion.Euler(21, 138.9661f, 347),
-                        new Vector3(1f, 1f, 1.2f));
+                    }
 
+                        break;
 
-                    CreateCloneIfNotExists(original, "OBJ_FenceWoodB1_Prefab (18)7(Clone)",
-                        new Vector3(-939.0109f, 283.4283f, 1260.2f),
-                        Quaternion.Euler(13.0004f, 315.257f, 16.9999f),
-                        new Vector3(1f, 1f, 1.2f));
-
-                    break;
+                    
             }
         }
 
 
         private static void HandleAirfieldRegion_SANDBOX(GameObject original, string objectPath)
         {
-            if (!Settings.options.forsakenFireplaces)
+            if (!Settings.options.mindfulNeighborhood)
                 return;
 
             string objectName = GetObjectNameFromPath(objectPath);

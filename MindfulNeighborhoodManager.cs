@@ -25,7 +25,7 @@ namespace MindfulNeighborhood
             Log.Msg($"****************************** PlaceAssetsAsync");
 
 
-            if (scene == "AirfieldRegion" && Settings.options.forsakenFireplaces)
+            if (scene == "AirfieldRegion" && Settings.options.mindfulNeighborhood)
             {
                 Log.Msg($"****************************** coastalfireplaces");
 

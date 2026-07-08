@@ -7,8 +7,13 @@ namespace MindfulNeighborhood
     {
 
         [Name("Enable Mindful Neighborhood")]
-        [Description("Adds several structures to the Mindful Cabin area and replaces the potbelly stove with a firteplace.")]
-        public bool forsakenFireplaces = false;
+        [Description("Adds several structures to the Mindful Cabin area and replaces the potbelly stove with a fireplace.")]
+        public bool mindfulNeighborhood = false;
+
+        [Name("Move Justy's Hovel Cabin to Mindful Cabin area")]
+        [Description("Move's Justy's Hovel cabin to the Mindful Cabin area")]
+        public bool moveJustys = false;
+
 
         [Name("Debug Mode")]
         [Description("Enables verbose logging for troubleshooting.")]
