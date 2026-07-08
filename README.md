@@ -3,7 +3,7 @@
 
 This mod adds a security hut, fishing hut, storage shed and hunter's blind to the Mindful Cabin Area.  Moves the cabin from Justy's hovel to the Mindful Cabin area.  Replaces the potbelly stove with a fireplace.  
 
-NOTE: Justy's Hovel cabin is moved - a burned trailer is left in it's place for continuity.
+NOTE: Separate setting to move Justy's Hovel cabin (a burned trailer is left in it's place for continuity).
 
 
 
